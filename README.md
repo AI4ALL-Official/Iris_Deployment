@@ -1,3 +1,3 @@
-# Iris_Deployment
+# Iris Deployment
 
-This app is designed to predict an iris species based on sliders of 4 categories
+This application is designed to deploy a random forest algorithm to predict iris subtype based on user slider input using StreamLit. 
