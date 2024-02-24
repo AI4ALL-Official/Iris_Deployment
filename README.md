@@ -4,7 +4,7 @@ This application is designed to deploy a random forest algorithm to predict iris
 
 
 
-<p align="center"><img src="" width=60%></p>
+<p align="center"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Screenshot.png" width=60%></p>
 
 
 ![Python](https://img.shields.io/badge/python-v2.7%20%2F%20v3.6-blue.svg)
