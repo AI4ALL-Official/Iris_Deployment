@@ -59,20 +59,26 @@ Once a model is saved or built into a web application framework, cloud-based met
 For this assignment, you will be forking this repository into your GitHub and connecting it with StreamLit to deploy the model on your own account. 
 
 
+## [Download Iris Deployment](https://github.com/AI4ALL-Offical/Iris_Deployment/archive/refs/heads/main.zip)
 
-
-## [Download GRAB](https://github.com/glickmac/GRAB/raw/master/GRAB.zip)
-
-#### Unzip GRAB and CD into Directory
-
-```
-unzip GRAB.zip
-cd GRAB
-```
-
-#### Other installations (Git)
+To run this locally:
+#### Unzip Iris Deployment and CD into Directory
 
 ```
-git clone https://github.com/glickmac/GRAB
+unzip Iris_Deployment.zip
+cd Iris_Deployment
 ```
+
+Install StreamLit Locally (assuming you have python and pip)
+
+```
+pip install streamlit
+```
+Run the application by running the app.py file
+
+```
+streamlit run app.py
+```
+
+You may need to copy and past the provided address in the command line
 
