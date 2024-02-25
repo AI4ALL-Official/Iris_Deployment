@@ -57,6 +57,21 @@ Once a model is saved or built into a web application framework, cloud-based met
 ## <a name="install"></a>Building your own StreamLit Deployable Model
 
 For this assignment, you will be forking this repository into your GitHub and connecting it with StreamLit to deploy the model on your own account. 
+1. To start fork this repository into your own GitHub account.
+2. Sign up for an account on [StreamLit](https://streamlit.io/)
+3. Link StreamLit to your GitHub Account <p align="center"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Link.png" width=60%></p>
+4. Build a new application by selecting "New App" <p align="center"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Build.png" width=60%></p>
+5. Create a new application by selecting the proper repository from the dropdown: <p align="center"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Create.png" width=60%></p>
+6. Make sure to change the Main File Path from "streamlit_app.py" to "app.py" <p align="left"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Error.png" width=40%></p><p align="right"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Change.png" width=40%></p>
+7. You can choose a custom URL name for the application
+8. Wait for the application to build
+
+
+
+
+
+
+
 
 
 ## [Download Iris Deployment](https://github.com/AI4ALL-Offical/Iris_Deployment/archive/refs/heads/main.zip)
