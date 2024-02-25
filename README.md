@@ -22,49 +22,43 @@ This application is designed to deploy a random forest algorithm to predict iris
 
 ## <a name="intro"></a>What is deployment?
 
-GRAB is short for Genomic Retrieval and Blast Database Creation. GRAB currently is only able to mine **bacterial** genomic information by taxonomy. GRAB consists of python scripts to mine the NCBI FTP sites for genomes, coding regions, or proteins of interest. 
+Model deployment is how you can share your developed model with others. There are industrial solutions, environmental containers, and more localized solutions.
 
 ## <a name="importance"></a>Why is model deployment important?
 
-GRAB automates the retrieval of genomic information to build custom BLAST databases. The current method of finding genomic information is laborious and time intensive and human error may result in missed information. GRAB provides an automated system to overcome current limitations in creating custom databases. 
+Model deployment is critical for collaborative development and testing. It is also important for distribution of a model to a broader audience. 
 
 ## <a name="workflow"></a>Deployment Workflow
 
-<p align="center"><img src="https://github.com/glickmac/GRAB/blob/master/images/GRAB.png" width=60%></p>
+<p align="center"><img src="https://github.com/AI4ALL-Offical/Iris_Deployment/blob/main/images/Deployment.png" width=60%></p>
 
 
-### Useful References
+### Types of Deployments
 
-[BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+Below are different methods other than StreamLit to deploy ML models
 
-BLAST is a sequence searching algorithm that searches for a query against a database
+#### Raw Files
 
-#### BLAST
+Saving trained machine learning models as an **H5**, **pkl**, or **sav** file to be loaded into the environment by another user
 
-[Install Command Line BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+#### Containerized Environment
 
-Make sure to add ncbi-blast to the system environment path
+Building a machine learning model and deploying the whole environment including the model itself as a **Docker** container. 
 
-[BLAST Command Line Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
+#### Web Application Framework
 
-The scripts are split to allow a user to create a BLAST database their own way
- 
-[BLAST makeblastdb Example](https://www.haktansuren.com/blast-makeblastdb/) 
+Building the model into a web application is a common method for deploying a model and is essentially what is happening in this **StreamLit** pipeline. Other python methods to build applications include **Django** and **Flask**. 
 
-A helpful post on BLAST command makeblastdb 
+#### Hosting Services
+
+Once a model is saved or built into a web application framework, cloud-based methods like Heroku, AWS Sagemaker, or StreamLit are needed to host the application and allow external users the ability to interact with the model. 
    
 
 ## <a name="install"></a>Building your own StreamLit Deployable Model
 
-Required software
-+ NCBI-BLAST: [download](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) 
-Must be in environmental path
-+ Argparse & Pandas: 
-```
-pip install argparse
-pip install pandas
-```
-[Argparse](https://pypi.python.org/pypi/argparse/) || [Pandas](http://pandas.pydata.org/pandas-docs/stable/install.html)
+For this assignment, you will be forking this repository into your GitHub and connecting it with StreamLit to deploy the model on your own account. 
+
+
 
 
 ## [Download GRAB](https://github.com/glickmac/GRAB/raw/master/GRAB.zip)
