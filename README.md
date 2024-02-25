@@ -65,8 +65,8 @@ To run this locally:
 #### Unzip Iris Deployment and CD into Directory
 
 ```
-unzip Iris_Deployment.zip
-cd Iris_Deployment
+unzip Iris_Deployment-main.zip
+cd Iris_Deployment-main
 ```
 
 Install StreamLit Locally (assuming you have python and pip)
@@ -80,5 +80,5 @@ Run the application by running the app.py file
 streamlit run app.py
 ```
 
-You may need to copy and past the provided address in the command line
+You may need to copy and past ```http://localhost:8501``` into a browser if it does not automatically open up a tab. 
 
