@@ -1,4 +1,8 @@
+pip==24.3.1
+setuptools
+wheel
+numpy
 joblib==1.2.0
-streamlit==1.27.2
-scikit-learn==1.2.0
-pandas==1.5.2
+streamlit
+scikit-learn
+pandas
